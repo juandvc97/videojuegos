@@ -1,0 +1,140 @@
+/*imagen del fondo*/
+body{
+    background-image:url("inicio_1.png");
+    background-size: 100% 100%;
+}
+
+/*Menu*/
+header{
+    background-image: url("3djuegos.png")no-repeat left;
+    background-image: url("bg_top.png");
+    background-repeat: repeat-x;
+    margin-top: 0px;
+    margin:0px auto 0px auto;
+    width: 1020px;
+}
+form {
+    float: right;
+    padding: 24px 25px 0px 0px;
+}
+.menu {
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("bg_menu.png");
+    width: 988px;
+    height: 25px;
+    padding-left: 25px;
+    padding-top: 7px;
+    font-size: 9px;
+}
+.menu a{
+    font: normal 12px Arial;
+    float: left;
+    color: #fff;
+    text-align:center;
+    text-decoration: none;
+    border-right: 1px solid #EEF6F6;
+    padding: 0px 4px 0px 4px;
+
+}
+.menu a:link{
+    color:#EEF6F6;
+}
+.nav a:hover {
+    color:#fff;
+}
+/*Effect*/
+.parte1 {
+    
+    width: 1020px;
+    height: 350px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.foto-effect{
+    float: left;
+    background-image: url("final.jpg")  ;
+    background-size: 660px 350px;
+    width: 660px;
+    height: 350px;
+}
+.texto-effect{
+    width: 210px;
+    height: 100px;
+    margin: 90px 0px 0px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.texto-effect h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    font-size: 30px;
+}
+.texto-effect p{
+    margin: 20px 0px 0px 0px;
+    color: rgb(206, 200, 200);
+
+}
+
+/* imagenes de las noticias*/
+.noticias{
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    width: 356px;
+    margin: 2px 0px 19px 2px;
+    display: block;
+}
+.noticias h3{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding: 10px 0px 0px 0px;
+    color:#ffff;
+}
+.noticias li{
+    float: right;
+    list-style: none;
+    width: 355px;
+    height: 50px;
+    margin: 0px 0px 12px 0px;
+   
+   
+}
+.noticias p{
+    float: right;
+    margin: 4px 1px 0px 5px;
+    color:#ccc7c7;
+    text-align: justify;
+    width: 275px;
+    font-size: 12px;
+}
+/*dqjw*/
+.footer {
+    margin: 0px auto 0px auto;
+    background: url("bg_peu.png");
+    background-size: 100% 100% ;
+    width: 1020px;
+    height: 90px;
+}
+.footer h6{
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 13px;
+    color:grey;
+    font-size: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.iconos{
+    margin: 20px auto 0px auto;
+    width: 130px;
+    height: 40px;
+}
+.iconos div{
+    margin: auto;
+    padding: 0px 5px 0px 5px;
+    width: 32px;
+    height: 32px;
+}
+
+
+    
